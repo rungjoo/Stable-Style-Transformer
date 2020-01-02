@@ -3,7 +3,7 @@
 
 ### Requirements
 1. Pytorch 1.2+
-2. Python3.5+
+2. Python 3.5+
 3. [Huggingface Transformer](https://github.com/huggingface/transformers)
 
 ### Datasets
