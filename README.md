@@ -7,6 +7,7 @@ The overall flow of our model
 2. Python 3.5+
 3. [Huggingface Transformer](https://github.com/huggingface/transformers)
 4. [BERTScore](https://pypi.org/project/bert-score/)
+
 <br>Basically, the code is supposed to run in the GPU environment.</br>
 If you do not have a GPU, it is recommended to modify the code and use it in a CPU environment.
 
