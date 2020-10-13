@@ -15,21 +15,21 @@ The overall flow of our model
 
 ## Train
 Description based on the yelp dataset
-"""
+'''bash
 cd generation_model/yelp
-"""
+'''
 ### Step 1: train classifier
-"""
+'''bash
 cd classifier
 python3 train.py
-"""
+'''
 ### Step 2: train generator
-"""
+'''bash
 python3 train.py
-"""
+'''
 ## Evaluation
-"""
+'''bash
 cd evaluation/yelp/my_model/SST/
-"""
+'''
 Check out generalization_eval_new.ipynb
 Systems are evaluated using BLEU, classification accuracy, PPL, and BERTscore.
