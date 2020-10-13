@@ -6,7 +6,7 @@ The overall flow of our model
 1. Pytorch 1.2+
 2. Python 3.5+
 3. [Huggingface Transformer](https://github.com/huggingface/transformers)
-4. [BERTScore] (https://pypi.org/project/bert-score/)
+4. [BERTScore](https://pypi.org/project/bert-score/)
 
 ## Datasets
 1. [Yelp and Amazon Dataset](https://github.com/lijuncen/Sentiment-and-Style-Transfer)
@@ -15,20 +15,20 @@ The overall flow of our model
 
 ## Train
 Description based on the yelp dataset
-"""bash
+"""
 cd generation_model/yelp
 """
 ### Step 1: train classifier
-"""bash
+"""
 cd classifier
 python3 train.py
 """
 ### Step 2: train generator
-"""bash
+"""
 python3 train.py
 """
 ## Evaluation
-"""bash
+"""
 cd evaluation/yelp/my_model/SST/
 """
 Check out generalization_eval_new.ipynb
