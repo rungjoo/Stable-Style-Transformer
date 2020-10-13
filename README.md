@@ -1,5 +1,6 @@
 # Stable Style Transformer with Classifier for Text Style Transfer
-
+![model](./image/our_model.png)
+The overall flow of our model
 
 ### Requirements
 1. Pytorch 1.2+
