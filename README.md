@@ -31,5 +31,5 @@ python3 train.py
 ```bash
 cd evaluation/yelp/my_model/SST/
 ```
-Check out generalization_eval_new.ipynb  
+Check out *generalization_eval_new.ipynb*  
 Systems are evaluated using BLEU, classification accuracy, PPL, and BERTscore.
