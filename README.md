@@ -21,16 +21,22 @@ Description based on the yelp dataset
 ```bash
 cd generation_model/yelp
 ```
-### Step 1: train classifier
+### Step 1: Train classifier
 ```bash
 cd classifier
 python3 train.py
 ```
-### Step 2: train generator
+### Step 2: Train generator
 ```bash
 python3 train.py
 ```
 ## Evaluation
+### Step 1: Train GPT
+```bash
+cd gpt2/yelp
+python3 train.py
+```
+### Step 2: To evaluate models with 4 metrics
 ```bash
 cd evaluation/yelp/my_model/SST/
 ```
