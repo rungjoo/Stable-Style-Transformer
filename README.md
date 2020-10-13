@@ -31,12 +31,12 @@ python3 train.py
 python3 train.py
 ```
 ## Evaluation
-### Step 1: Train GPT
+### Step 1: Finetune GPT
 ```bash
 cd gpt2/yelp
 python3 train.py
 ```
-### Step 2: To evaluate models with 4 metrics
+### Step 2: Evaluate models with 4 metrics
 ```bash
 cd evaluation/yelp/my_model/SST/
 ```
