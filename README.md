@@ -10,6 +10,7 @@ The overall flow of our model
 
 <br>Basically, the code is supposed to run in the GPU environment.</br>
 If you do not have a GPU, it is recommended to modify the code and use it in a CPU environment.
+By default, the folder path is an absolute path, so please set the root according to your settings.
 
 ## Datasets
 1. [Yelp and Amazon Dataset](https://github.com/lijuncen/Sentiment-and-Style-Transfer)
