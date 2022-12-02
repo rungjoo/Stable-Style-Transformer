@@ -43,3 +43,19 @@ cd evaluation/yelp/my_model/SST/
 ```
 Check out *generalization_eval_new.ipynb*  
 Systems are evaluated using BLEU, classification accuracy, PPL, and BERTscore.
+
+## Citation
+
+```bibtex
+@inproceedings{lee-2020-stable,
+    title = "Stable Style Transformer: Delete and Generate Approach with Encoder-Decoder for Text Style Transfer",
+    author = "Lee, Joosung",
+    booktitle = "Proceedings of the 13th International Conference on Natural Language Generation",
+    month = dec,
+    year = "2020",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.inlg-1.25",
+    pages = "195--204"
+}
+```
