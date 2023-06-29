@@ -15,7 +15,7 @@ model.train()
 print('ok')
 
 def main():
-    data_path = "/DATA/joosung/sentiment_data/Sentiment-and-Style-Transfer-master/data"
+    data_path = "DATA/joosung/sentiment_data/Sentiment-and-Style-Transfer/data"
     yelp_neg_path = data_path + "/yelp/sentiment.train.0"
     yelp_neg_open = open(yelp_neg_path, "r")
     yelp_neg_dataset = yelp_neg_open.readlines()
